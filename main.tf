@@ -15,5 +15,5 @@ provider "aws" {
 
 resource "aws_instance" "lavanyainfra" {
 	ami = "ami-05548f9cecf47b442" // Refer aws and get correct ami id
-	instance_type = "t2.micro"
+	instance_type = "t2.nano"
 }
